@@ -799,8 +799,19 @@ $utilities: map-merge(
       property: z-index,
       class: z,
       values: $zindex-levels,
-    )
+    ),
     // scss-docs-end utils-zindex
+    //custom
+    "bg-attachment":(
+      property: background-attachment,
+      class:"bg-attachment",
+      values:fixed
+    ),
+    "object-fit-cover":(
+      property: object-fit,
+      class:"object-fit-cover",
+      values:cover
+    )
   ),
   $utilities
 );

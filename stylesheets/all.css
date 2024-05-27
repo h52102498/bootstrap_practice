@@ -5946,6 +5946,15 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
+.bg-attachment-fixed {
+  background-attachment: fixed !important;
+}
+
+.object-fit-cover-cover {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -9374,4 +9383,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.deco-box {
+  height: 240px;
+  width: 240px;
+  background-color: #7eddff;
 }/*# sourceMappingURL=all.css.map */
